@@ -1,0 +1,19 @@
+{
+  "name": "api-hp",
+  "version": "1.0.0",
+  "description": "API para fazer o CRUD de personagens do Harry Potter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Thiago Lima",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.2",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.15"
+  }
+}
